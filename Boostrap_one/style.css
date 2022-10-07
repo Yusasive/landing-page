@@ -1,0 +1,70 @@
+.section {
+    height: 30px;
+    line-height: 30px;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #000000;
+    margin: 90px;
+    clear: both;
+}
+
+.section .image-section {
+    width: 40%;
+    height: 400px;
+    background-image: url("images/image-hero-desktop.png");
+    background-size: cover;
+    background-repeat: round;
+    border: 1px solid white;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section .aside {
+    float: left;
+    font-size: 24px;
+}
+
+.section .aside span {
+    font-size: 15px;
+    margin: 50px;
+}
+
+.section .aside h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.section .inline-images img {
+    margin: 5px;
+}
+
+.section .btn {
+    align-items: center;
+}
+
+@media only screen and (max-device-width: 767px) {
+    .section {
+        padding: 4px 6px;
+        font-size: 16px;
+        color: #000000;
+        margin: 5px;
+        clear: both;
+    }
+    .section .image-section {
+        background-image: url("images/image-hero-mobile.png");
+        width: 335px;
+        height: 300px;
+        background-size: cover;
+        background-repeat: round;
+        border: 1px solid white;
+        display: block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .section .aside {
+        font-size: 24px;
+    }
+    .section .aside span {
+        font-size: 15px;
+        margin: 5px;
+    }
+}
